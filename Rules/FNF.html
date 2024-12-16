@@ -1,0 +1,240 @@
+<head>
+	<title>Warframe TTRPG</title>
+	<link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/warframe/images/6/63/TennoIcon.png"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<style>
+		body{font-family: "Roboto", sans-serif;font-style: normal;background-color:white;background-image:url('https://static.wikia.nocookie.net/warframe/images/1/13/Fortuna_cover.jpg');background-repeat:no-repeat;background-size:auto 100%;background-position:-1000px;background-attachment:fixed}
+		tr.head{background-color:#CF2B24;color:white;}
+		tr.foundational{background-color:black;color:white;}
+		table{margin-left:auto;margin-right:auto;}
+		img{border:5px solid #CF2B24;}
+		.rarrow{color:#CF2B24;}
+		
+		*{
+			margin: 0 5 10 5;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		::before,
+		::after {
+			box-sizing: inherit;
+		}
+		
+		div {
+			column-count: 2;
+		}
+		b,i{margin: 0 0 0 0}
+		
+	</style>
+</head>
+<body>
+	<table border=1 width=50% style="background-color:white">
+		<tr style="vertical-align:top;">
+			<td colspan=2>
+				<b>In roleplaying, the "board" is your imagination; the environment is described to you by the GM and it's up to you to imagine in your mind's eye where everything is, based on those descriptions (although grid maps and miniatures are sometimes used as visual aids in more complex situations).</b>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h1>In Combat Time</h1>
+				<p>We've already discussed how time flows in a Cyberpunk RED game on pg. 126. Now, let's talk about when things get violent or very specific. This is when you absolutely need to know who's faster and a Skill Check (covered in-depth on pg. 128) isn't gonna cut it... you are definitely in combat. Roll Initiative!</p>
+				<h2>Initiative and Combat Time</h2>
+				<p>
+					To recap, combat is divided into Turns, each of which takes approximately 3 seconds. The amount of time it takes each entity involved in the combat to take a Turn is a Round. Because Actions happen roughly simultaneously in game, one Round is also approximately 3 seconds long.
+				</p>
+				<table border=1 width=95%>
+					<tr>
+						<th>
+							<p>When a combat starts, everyone rolls Initiative:</p>
+							<p>Initiative = REF + 1d10</p>
+						</th>
+					</tr>
+				</table>
+				<p>
+					All participants in the combat place themselves according to their Initiative Roll into what we call an Initiative Queue in descending order. Resolve ties by rolling again until the higher number wins. Combat proceeds in Initiative Queue order, with each entity in the Initiative Queue getting a Turn. When the bottom is reached, the Initiative Queue starts again from the top in a new Round.
+				</p>
+				<table border=1 width=95%>
+					<tr>
+						<th>
+							<p>Your Turn = 1 Move Action + 1 other Action</p>
+							<p>Every Turn, a Character gets 1 Move Action and 1 Action</p>
+						</th>
+					</tr>
+				</table>
+				<h1>Actions</h1>
+				<p>
+					Actions are the meat of your Turn in Cyberpunk RED. Here are the basic uses for your Action in combat. Combat-focused Actions are explained in greater detail later in this section.
+				</p>
+				<h3><span class="rarrow">▶</span> Combat Actions in Brief</h3>
+				<table border=1 width=95%>
+					<tr class="head" style="text-align:left">
+						<th>Action</th><th>Data</th>
+					</tr>
+					<tr>
+						<th style="text-align:left">Move Action</th>
+						<td>Move up to as many m/yds as your MOVE STAT x 2 each Turn (or squares equal to your MOVE STAT).</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Attack</th>
+						<td>Make a Melee or Ranged Attack.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Choke</th>
+						<td>Choke an opponent you have Grabbed.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Equip/Drop Shield</th>
+						<td>Equipping and dropping a Shield takes an Action. See Using Shields later in this section on pg. 183.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Get into a Vehicle</th>
+						<td>Get into a Vehicle. See Vehicle Combat later in this section on pg. 189.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Get Up</th>
+						<td>Get up after being Prone. While Prone, until you use this Action, you cannot use a Move Action.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Grab</th>
+						<td>Grab and hold an opponent or take away an object they are holding.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Hold Action</th>
+						<td>Hold an Action until later in the Initiative Queue. You must choose a specified event to trigger the Action or a specific number in the Initiative Queue when the action occurs as well as what the Action is, and what its intended target is.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Human Shield</th>
+						<td>Equip an opponent you have Grabbed as a Human Shield.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Reload</th>
+						<td>Fully reload and replace a weapon's magazine with a single ammunition type.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Run</th>
+						<td>Take an additional Move Action, but only if you have already taken a Move Action this Turn.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Start a Vehicle</th>
+						<td>Start a Vehicle to gain its MOVE and jump to the top of the Initiative Queue.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Stabilize</th>
+						<td>Stabilize a target to begin the natural healing process or pull them out of the Mortally Wounded Wound State to save their life. See on pg. 222.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Throw</th>
+						<td>Throw a grabbed opponent to the ground or throw an object.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Use NET Actions</th>
+						<td>Perform multiple NET Actions inside the NET. See Netrunning Section for how to use NET Actions on pg. 197.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Use an Object</th>
+						<td>Manipulate an object in a way that doesn't require a Skill. Drawing an easily accessible weapon into a free hand or dropping a held weapon (not a shield) onto the floor does not require this Action but stowing a held weapon on your person does.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Use a Skill</th>
+						<td>Use one of your Skills to accomplish a quick task. A longer task will require multiple Actions over the course of multiple Turns, rolling only when the full time has been paid for in 3-second increments.</td>
+					</tr>
+					<tr>
+						<th style="text-align:left">Vehicle Maneuver</th>
+						<td>Use your Action while driving to focus entirely on making a dangerous Maneuver.</td>
+					</tr>
+				</table>
+				<h1>Actions in Detail</h1>
+				<div>
+					<p>
+						Here are some specifics you may want to know about certain Actions.
+					</p>
+					<h2>Move Action</h2>
+					<p>
+						Every Turn, a Character gets a Move Action, which can only be used to move a number of m/yds equal to their MOVE x 2, or a number of squares (if playing on a grid) equal to their MOVE, which can include moving diagonally. If you are playing on a grid, you cannot stop in between the squares.
+					</p>
+					<h3 style="text-align:center"><span class="rarrow">▶</span> Prone <span class="rarrow">◀</span></h3>
+					<p>
+						When you are Prone, you can't use your Move Action until you use the Get Up Action.
+					</p>
+					<h3 style="text-align:center"><span class="rarrow">▶</span> Split Movement and ROF <span class="rarrow">◀</span></h3>
+					<p>
+						Combat in Cyberpunk RED is fast-paced and fluid. Whenever you Move using your Move Action, you can take your Action in the middle of that Move Action, and then keep Moving afterwards. We call this Splitting, and it's not just for Move Actions. Some types of attacks are faster than others, capable of striking/shooting twice with a single Attack Action.
+					</p>
+					<p>
+						These are called 2 Rate of Fire Attacks (or 2 ROF). All attacks from 2 ROF sources can be "split" across a Move Action. You can move, shoot, move, shoot, move. You can even make a single attack from each of two different 2 ROF sources by "Splitting" your two attacks across the two of them, allowing them both to be used in a single Turn. So yes, you can use the Heavy Pistol in your left hand to take a shot down the hallway, then walk down that disgusting hallway to stab your victim with the machete in your right hand.
+					</p>
+					<p>
+						Attacks from 1 ROF sources are slower, and take your whole Attack Action, but you can still split movement around them.
+					</p>
+						<h3 style="text-align:center"><span class="rarrow">▶</span> Other Forms of Movement <span class="rarrow">◀</span></h3>
+					<p>
+						Swimming, Climbing, and Jumping with a running start all cost 2 m/yds of movement for every m/yd traveled or 2 squares for every 1 square. When jumping from standing you can clear half the distance that you could with a running start. See Taking Damage later in this section (pg. 180) for more on falling and drowning.
+					</p>
+				</div>
+				<h2>Aimed Shots</h2>
+				<p>
+					At a maximum of 1 ROF you can aim a single Ranged or Melee Attack by taking your entire Action and a -8 to your Check to aim for any of these special areas. If you hit, you deal the attack's damage as normal, and you also get an additional effect based on the special area you aimed for.
+				</p>
+				<table border=1 width=95%>
+					<tr class="head">
+						<th>Aiming for...</th><th style="text-align:left">Effect</th>
+					</tr>
+					<tr>
+						<th>Head</th>
+						<td style="text-align:left">Multiply the damage that gets through your target's head armor by 2.</td>
+					</tr>
+					<tr>
+						<th>Held Item</th>
+						<td style="text-align:left">If a single point of damage gets through your target's body armor, your target drops one item of your choice held in their hands. It lands on the ground in front of them.</td>
+					</tr>
+					<tr>
+						<th>Leg</th>
+						<td style="text-align:left">If a single point of damage gets through your target's body armor, your target also suffers the Broken Leg Critical Injury if they have any legs left that aren't broken.</td>
+					</tr>
+				</table>
+				<h2>Drawing, Dropping, and Stowing</h2>
+				<p>
+					Drawing an easily accessible weapon into a free hand isn't an Action. Dropping a held weapon to the ground isn't an Action but stowing it on your person is an Action. One exception: equipping and dropping a Shield takes an Action. See Using a Shield later in this section on pg. 183.
+				</p>
+				<h2>Reload</h2>
+				<p>
+					Sometimes, you empty the clip. You can use an Action to fully reload and replace a magazine with a single ammunition type. You can't mix ammunition types in a magazine.
+				</p>
+				<h1>Ranged Combat</h1>
+				<p>
+						Ranged combat includes any attack made at a distance. Let's look at what is on offer in the Dark Future.
+				</p>
+				<h2>How to Read the Ranged Weapon Table</h2>
+				<p>
+					<b>Weapon Type:</b> The classification of the weapon.
+				</p>
+				<p>
+					<b>Weapon Skill:</b> The Skill you use when firing this weapon.
+				</p>
+				<p>
+					<b>Single Shot Damage:</b> The damage of a single shot from the weapon.
+				</p>
+				<p>
+					<b>Standard Magazine:</b> How many bullets or other types of ammo can be held in the weapon without mods. Below the magazine size you can find the type of ammunition the weapon fires.
+				</p>
+				<p>
+					<b>Rate of Fire (ROF):</b> How many times the weapon can be fired with a single Attack Action.
+				</p>
+				<p>
+					<b>Number of Hands Required:</b> How many hands you need to hold the weapon and fire it.
+				</p>
+				<p>
+					<b>Can be Concealed?:</b> If the weapon can be concealed with the Conceal/Reveal Object Skill under clothing.
+				</p>
+				<p>
+					<b>Alt Fire Modes & Special Features:</b> Unique traits of the weapon. See the full section on pg. 173.
+				</p>
+				<p>
+					<b>Cost:</b> What the weapon costs in the main currency in Night City, the Eurobuck. The Price Category of the item is listed below its cost. See Buying and Selling on Page 385.
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>

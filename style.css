@@ -1,0 +1,53 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    background-color: white
+}
+body.fortuna{
+    background-image: url('https://static.wikia.nocookie.net/warframe/images/1/13/Fortuna_cover.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: -1000px;
+    background-attachment: fixed;
+}
+body.corpus{
+    background-image: url('https://sm.ign.com/ign_za/gallery/e/exclusive-/exclusive-screenshots-of-warframes-corpus-tileset-remaster-t_xdeg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain 100%;
+    background-position: 0px;
+    background-attachment: fixed;
+}
+body.grineer{
+    background-image: url('https://sm.ign.com/ign_za/gallery/e/exclusive-/exclusive-screenshots-of-warframes-corpus-tileset-remaster-t_xdeg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain 100%;
+    background-position: 0px;
+    background-attachment: fixed;
+}
+td{
+    text-align: center;
+}
+tr.head{
+    background-color: #CF2B24;
+    color: white;
+}
+tr.foundational{
+    background-color: black;
+    color: white;
+}
+table{
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+}
+img.border{
+    border: 5px solid #CF2B24;
+}
+.rarrow{
+    color:#CF2B24;
+}
